@@ -51,15 +51,15 @@ Install the API.rest extension in Visual Studio Code.
 Create a new file with the .http extension (e.g., test.http).
 Use the following commands to test the API:
 
-`
-### Get all movies
-GET http://localhost:3000/movies
+```
+# Get all movies
+GET http://localhost:3001/movies
 
-### Get a movie by ID
-GET http://localhost:3000/movies/1
+# Get a movie by ID
+GET http://localhost:3001/movies/1
 
-### Create a new movie
-POST http://localhost:3000/movies
+# Create a new movie
+POST http://localhost:3001/movies
 Content-Type: application/json
 
 {
@@ -74,18 +74,18 @@ Content-Type: application/json
     "releaseDate": "2024-05-01"
 }
 
-### Update a movie
-PUT http://localhost:3000/movies/1
+# Update a movie
+PUT http://localhost:3001/movies/1
 Content-Type: application/json
 
 {
     "name": "Updated Movie Name"
 }
 
-### Delete a movie
-DELETE http://localhost:3000/movies/1
+# Delete a movie
+DELETE http://localhost:3001/movies/1
 
-`
+```
 ## Test
 
 ```bash
@@ -98,6 +98,10 @@ $ npm run test:e2e
 # test coverage
 $ npm run test:cov
 ```
+
+## API DOCUMENTATION
+
+`http://localhost:3001/api-docs`
 
 ## Support
 
