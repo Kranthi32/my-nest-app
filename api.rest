@@ -1,0 +1,197 @@
+POST http://localhost:3001/movies
+Content-Type: application/json
+[
+  {
+    "name": "SALAR",
+    "description": "In the year 1985, Deva and Vardharaja \"Vardha\" Mannar are inseparable companions in Khansaar, a puissant city-state, which is ruled by Monarchy form of Government. Khansaar is ruled by Vardha's father, Raja Mannar. After Raja Mannar, the chief of the Mannar tribe, commands the decimation of the Shouryaanga tribe, a mob pounces on Deva and his mother at their residence, but Vardha intercedes for them and confers an important territory of his in exchange for sparing their lives. Before exiting Khansaar, Deva vows to return on Vardha's call.",
+    "language": "TELUGU",
+    "image": "https://upload.wikimedia.org/wikipedia/en/a/a6/Salaar_Part_1_%E2%80%93_Ceasefire.jpg",
+    "price": "300.00",
+    "totalTickets": 1000,
+    "bookedTickets": 800,
+    "discountPercent": "10.00",
+    "releaseDate": "2023-12-13"
+  },
+  {
+    "name": "Baahubali: The Beginning",
+    "description": "An Indian epic film known to the entire Indian film fraternity.",
+    "language": "Telugu",
+    "image": "https://upload.wikimedia.org/wikipedia/en/5/5f/Baahubali_The_Beginning_poster.jpg",
+    "price": "200.00",
+    "totalTickets": 500,
+    "bookedTickets": 100,
+    "discountPercent": "10.00",
+    "releaseDate": "2022-07-10"
+  },
+  {
+    "name": "Arjun Reddy",
+    "description": "A peculiar love story amidst days of youthful craze.",
+    "language": "Telugu",
+    "image": "https://upload.wikimedia.org/wikipedia/en/4/46/Arjun_Reddy.jpg",
+    "price": "150.00",
+    "totalTickets": 300,
+    "bookedTickets": 50,
+    "discountPercent": "5.00",
+    "releaseDate": "2023-05-20"
+  },
+  {
+    "name": "Baahubali 2: The Conclusion",
+    "description": "The much-anticipated conclusion to the Baahubali saga, a visual treat for movie lovers.",
+    "language": "Telugu",
+    "image": "https://upload.wikimedia.org/wikipedia/en/9/93/Baahubali_2_The_Conclusion_poster.jpg",
+    "price": "250.00",
+    "totalTickets": 600,
+    "bookedTickets": 150,
+    "discountPercent": "8.00",
+    "releaseDate": "2024-09-05"
+  },
+  {
+    "name": "Ala Vaikunthapurramuloo",
+    "description": "A family entertainer with a blend of action, romance, and drama.",
+    "language": "Telugu",
+    "image": "https://upload.wikimedia.org/wikipedia/en/2/28/Ala_Vaikunthapurramuloo.jpeg",
+    "price": "180.00",
+    "totalTickets": 400,
+    "bookedTickets": 80,
+    "discountPercent": "7.00",
+    "releaseDate": "2020-01-12"
+  },
+  {
+    "name": "Attarintiki Daredi",
+    "description": "A family drama filled with emotions, comedy, and action, centered around a man's quest to reunite his family.",
+    "language": "Telugu",
+    "image": "https://upload.wikimedia.org/wikipedia/en/f/fd/Attarintiki_Daredi.jpg",
+    "price": "180.00",
+    "totalTickets": 450,
+    "bookedTickets": 90,
+    "discountPercent": "7.00",
+    "releaseDate": "2013-09-27"
+  },
+  {
+    "name": "Pokiri",
+    "description": "An action-packed thriller revolving around an undercover police officer's mission to eradicate crime.",
+    "language": "Telugu",
+    "image": "https://upload.wikimedia.org/wikipedia/en/b/b2/Pokiri_movie_poster.jpg",
+    "price": "160.00",
+    "totalTickets": 380,
+    "bookedTickets": 70,
+    "discountPercent": "5.00",
+    "releaseDate": "2006-04-28"
+  },
+  {
+    "name": "Sarileru Neekevvaru",
+    "description": "An action-packed entertainer featuring a soldier's mission to eliminate anti-social elements.",
+    "language": "Telugu",
+    "image": "https://upload.wikimedia.org/wikipedia/en/4/42/Sarileru_Neekevvaru.jpg",
+    "price": "200.00",
+    "totalTickets": 450,
+    "bookedTickets": 90,
+    "discountPercent": "8.00",
+    "releaseDate": "2020-01-11"
+  },
+  {
+    "name": "Rangasthalam",
+    "description": "A rural drama set in the 1980s, depicting the struggles of a village against oppression.",
+    "language": "Telugu",
+    "image": "https://upload.wikimedia.org/wikipedia/en/5/5d/Rangasthalam.jpg",
+    "price": "170.00",
+    "totalTickets": 350,
+    "bookedTickets": 70,
+    "discountPercent": "6.00",
+    "releaseDate": "2018-03-30"
+  },
+  {
+    "name": "Maharshi",
+    "description": "A journey of a self-made man who returns to his roots to uplift his village.",
+    "language": "Telugu",
+    "image": "https://upload.wikimedia.org/wikipedia/en/3/37/Maharshi_poster.jpg",
+    "price": "190.00",
+    "totalTickets": 500,
+    "bookedTickets": 100,
+    "discountPercent": "8.00",
+    "releaseDate": "2019-05-09"
+  },
+  {
+    "name": "Khaidi No. 150",
+    "description": "A story of redemption and revenge, showcasing the power of an individual against corruption.",
+    "language": "Telugu",
+    "image": "https://upload.wikimedia.org/wikipedia/en/0/0e/Chiranjeevi%27s_Khaidi_No.150_poster.jpg",
+    "price": "160.00",
+    "totalTickets": 400,
+    "bookedTickets": 80,
+    "discountPercent": "5.00",
+    "releaseDate": "2017-01-11"
+  },
+  {
+    "name": "Mirchi",
+    "description": "A tale of love, rivalry, and revenge set in a backdrop of family conflicts.",
+    "language": "Telugu",
+    "image": "https://upload.wikimedia.org/wikipedia/en/a/a8/Mirchi_film_poster.jpg",
+    "price": "150.00",
+    "totalTickets": 380,
+    "bookedTickets": 60,
+    "discountPercent": "5.00",
+    "releaseDate": "2013-02-08"
+  },
+  {
+    "name": "Geetha Govindam",
+    "description": "A romantic comedy film that explores the nuances of love and relationships.",
+    "language": "Telugu",
+    "image": "https://upload.wikimedia.org/wikipedia/en/4/46/Geetha_Govindam.jpg",
+    "price": "170.00",
+    "totalTickets": 420,
+    "bookedTickets": 80,
+    "discountPercent": "6.00",
+    "releaseDate": "2018-08-15"
+  },
+  {
+    "name": "Eega",
+    "description": "A unique fantasy film showcasing the revenge of a murdered man in the form of a housefly.",
+    "language": "Telugu",
+    "image": "https://upload.wikimedia.org/wikipedia/en/3/30/Eega_poster.jpg",
+    "price": "150.00",
+    "totalTickets": 370,
+    "bookedTickets": 60,
+    "discountPercent": "5.00",
+    "releaseDate": "2012-07-06"
+  },
+  {
+    "name": "Pushpa: The Rise",
+    "description": "Pushpa: The Rise is an action thriller film directed by Sukumar. It stars Allu Arjun, Fahadh Faasil, and Rashmika Mandanna in lead roles.",
+    "language": "TELUGU",
+    "image": "https://upload.wikimedia.org/wikipedia/en/7/75/Pushpa_-_The_Rise_%282021_film%29.jpg",
+    "price": "300.00",
+    "totalTickets": 300,
+    "bookedTickets": 50,
+    "discountPercent": "10.00",
+    "releaseDate": "2023-12-22"
+  },
+  {
+    "name": "RRR",
+    "description": "RRR is a period action drama film directed by S.S. Rajamouli. It stars N. T. Rama Rao Jr., Ram Charan, Alia Bhatt, and Ajay Devgn.",
+    "language": "TELUGU",
+    "image": "https://upload.wikimedia.org/wikipedia/en/d/d7/RRR_Poster.jpg",
+    "price": "500.00",
+    "totalTickets": 2000,
+    "bookedTickets": 1000,
+    "discountPercent": "4.00",
+    "releaseDate": "2023-03-22"
+  }
+]
+
+
+
+###
+
+GET http://localhost:3001/movies
+
+
+###
+
+GET http://localhost:3001/movies/17
+
+
+
+
+
+
