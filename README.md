@@ -45,6 +45,47 @@ $ npm run start:dev
 $ npm run start:prod
 ```
 
+
+## Testing with API.rest (VS Code Extension)
+Install the API.rest extension in Visual Studio Code.
+Create a new file with the .http extension (e.g., test.http).
+Use the following commands to test the API:
+
+`
+### Get all movies
+GET http://localhost:3000/movies
+
+### Get a movie by ID
+GET http://localhost:3000/movies/1
+
+### Create a new movie
+POST http://localhost:3000/movies
+Content-Type: application/json
+
+{
+    "name": "Sample Movie",
+    "description": "A sample movie",
+    "language": "English",
+    "image": "https://example.com/sample-movie.jpg",
+    "price": 10.99,
+    "totalTickets": 100,
+    "bookedTickets": 0,
+    "discountPercent": 0,
+    "releaseDate": "2024-05-01"
+}
+
+### Update a movie
+PUT http://localhost:3000/movies/1
+Content-Type: application/json
+
+{
+    "name": "Updated Movie Name"
+}
+
+### Delete a movie
+DELETE http://localhost:3000/movies/1
+
+`
 ## Test
 
 ```bash
